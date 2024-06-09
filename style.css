@@ -1,0 +1,47 @@
+.container{
+    display: flex;
+}
+.t1{
+    font-size: 40px;
+    text-transform: uppercase;
+    color: red;
+    }
+ 
+
+.titulo1{
+    color: green;
+    font-size: 400%;
+}
+.titulo2{
+    color: darkgoldenrod;
+    font-size: 300%;
+}
+.texto1{
+    text-align: center;
+    color: red;
+
+}
+img{
+    height: 400px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+}
+#t3{
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #1465bb, #2196f3, #81c9fa, #b9ffff);
+    background-size: 400%, 100%;
+    animation:animação 13s linear infinite ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+}
+@keyframes animação {
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position: 400%;
+    }
+} 
