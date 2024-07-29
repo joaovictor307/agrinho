@@ -1,3 +1,8 @@
+p{
+    color:black;
+    font-size: 20px;
+}
+
 .container{
     display: flex;
 }
@@ -9,12 +14,15 @@
  
 
 .titulo1{
-    color: green;
+    background-color: red;
+    color:black;
     font-size: 400%;
+    text-align: center;
 }
 .titulo2{
-    color: darkgoldenrod;
+    color: rgb(34, 33, 33);
     font-size: 300%;
+    text-align: right;
 }
 .texto1{
     text-align: center;
@@ -22,13 +30,21 @@
 
 }
 img{
-    height: 400px;
-    display: block;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    height: 800px;
 
 }
 #t3{
+    font-size: 70px;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, red, rgb(250, 52, 52), rgb(248, 71, 71), rgb(241, 77, 77), rgb(202, 66, 66));
+    background-size: 400%, 100%;
+    animation:animação 13s linear infinite ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color:transparent ;
+}
+.t4{
     font-size: 70px;
     text-transform: uppercase;
     background: linear-gradient(45deg, #1465bb, #2196f3, #81c9fa, #b9ffff);
